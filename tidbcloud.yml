@@ -2,3 +2,4 @@ github:
   branch:
     allowList:
       - "ci_example"
+      - "uk_example"
