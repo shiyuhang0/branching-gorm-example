@@ -1,4 +1,4 @@
-# tidbcloud-branch-gorm-example
+# branching-gorm-example
 
 > **Warning:** This repo is only for testing. Please don't use it in production.
 
@@ -19,7 +19,7 @@ This repo has been connected to a TiDB Serverless using the [Branching GitHub in
 
 The repo has a [GitHub action](./.github/workflows/tests.yml) to run the test on the created TiDB Serverless branch.
 
-This action uses the [wait-for-tidbcloud-branch](https://github.com/tidbcloud/wait-for-tidbcloud-branch) to get branch connection information and pass it by environment variables. We can do it because the repo accepts the `GORM_DSN` environment variable as connection information. See the [code](https://github.com/shiyuhang0/tidbcloud-branch-gorm-example/blob/9639f553418456fd1ebb1d933923fba131c98b6b/db.go#L52) for more details.
+This action uses the [wait-for-tidbcloud-branch](https://github.com/tidbcloud/wait-for-tidbcloud-branch) to get branch connection information and pass it by environment variables. We can do it because the repo accepts the `GORM_DSN` environment variable as connection information. See the [code](https://github.com/shiyuhang0/branching-gorm-example/blob/9639f553418456fd1ebb1d933923fba131c98b6b/db.go#L52) for more details.
 
 ## CD workflow
 
